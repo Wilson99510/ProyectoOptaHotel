@@ -69,11 +69,12 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(295, 64);
+            this.label2.Location = new System.Drawing.Point(295, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 43);
             this.label2.TabIndex = 2;
             this.label2.Text = "SYSTEM";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
             // 
@@ -100,6 +101,7 @@
             this.txt_Usuario.Name = "txt_Usuario";
             this.txt_Usuario.Size = new System.Drawing.Size(182, 26);
             this.txt_Usuario.TabIndex = 5;
+            this.txt_Usuario.TextChanged += new System.EventHandler(this.txt_Usuario_TextChanged);
             // 
             // pictureBox2
             // 

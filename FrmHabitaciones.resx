@@ -117,44 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="lblHora.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="lblHora.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 10pt, style=Bold</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1347, 100</value>
+  <data name="lblHora.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHora.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1164, 26</value>
+  </data>
+  <data name="lblHora.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 44</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblHora.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+  <data name="lblHora.Text" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="&gt;&gt;lblHora.Name" xml:space="preserve">
+    <value>lblHora</value>
+  </data>
+  <data name="&gt;&gt;lblHora.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHora.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>21</value>
+  <data name="&gt;&gt;lblHora.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -184,7 +181,31 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1399, 100</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>22</value>
   </data>
   <data name="lblNumero.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -193,10 +214,10 @@
     <value>Century Gothic, 10pt, style=Bold</value>
   </data>
   <data name="lblNumero.Location" type="System.Drawing.Point, System.Drawing">
-    <value>94, 166</value>
+    <value>93, 166</value>
   </data>
   <data name="lblNumero.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 26</value>
+    <value>151, 26</value>
   </data>
   <data name="lblNumero.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -214,7 +235,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblNumero.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="txtIdHabitacion.Location" type="System.Drawing.Point, System.Drawing">
     <value>214, 124</value>
@@ -235,7 +256,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtIdHabitacion.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="txtNumero.Location" type="System.Drawing.Point, System.Drawing">
     <value>214, 166</value>
@@ -256,7 +277,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNumero.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="lblPiso.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -265,10 +286,10 @@
     <value>Century Gothic, 10pt, style=Bold</value>
   </data>
   <data name="lblPiso.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 210</value>
+    <value>73, 210</value>
   </data>
   <data name="lblPiso.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 28</value>
+    <value>117, 28</value>
   </data>
   <data name="lblPiso.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -289,7 +310,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblPiso.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="cboPiso.Items" xml:space="preserve">
     <value>1</value>
@@ -328,7 +349,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cboPiso.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="lblCaracteristicas.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -337,10 +358,10 @@
     <value>Century Gothic, 10pt, style=Bold</value>
   </data>
   <data name="lblCaracteristicas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 255</value>
+    <value>4, 255</value>
   </data>
   <data name="lblCaracteristicas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 24</value>
+    <value>186, 27</value>
   </data>
   <data name="lblCaracteristicas.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -361,7 +382,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblCaracteristicas.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="txtCaracteristicas.Location" type="System.Drawing.Point, System.Drawing">
     <value>214, 255</value>
@@ -385,7 +406,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtCaracteristicas.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="lblPrecioDiario.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -394,10 +415,10 @@
     <value>Century Gothic, 10pt, style=Bold</value>
   </data>
   <data name="lblPrecioDiario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 363</value>
+    <value>4, 363</value>
   </data>
   <data name="lblPrecioDiario.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 26</value>
+    <value>194, 26</value>
   </data>
   <data name="lblPrecioDiario.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -418,7 +439,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblPrecioDiario.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="lblEstado.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -427,10 +448,10 @@
     <value>Century Gothic, 10pt, style=Bold</value>
   </data>
   <data name="lblEstado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 405</value>
+    <value>56, 405</value>
   </data>
   <data name="lblEstado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 28</value>
+    <value>142, 28</value>
   </data>
   <data name="lblEstado.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -451,7 +472,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblEstado.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="lblTipo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -460,10 +481,10 @@
     <value>Century Gothic, 10pt, style=Bold</value>
   </data>
   <data name="lblTipo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 452</value>
+    <value>77, 452</value>
   </data>
   <data name="lblTipo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 28</value>
+    <value>121, 28</value>
   </data>
   <data name="lblTipo.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -484,7 +505,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblTipo.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="txtPrecioDiario.Location" type="System.Drawing.Point, System.Drawing">
     <value>214, 363</value>
@@ -505,7 +526,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtPrecioDiario.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="cboEstado.Items" xml:space="preserve">
     <value>Disponible</value>
@@ -538,7 +559,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cboEstado.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="cboTipoHabitacion.Items" xml:space="preserve">
     <value>Individual</value>
@@ -568,31 +589,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cboTipoHabitacion.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="bunifuCustomDataGrid1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>494, 166</value>
-  </data>
-  <data name="bunifuCustomDataGrid1.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>62</value>
-  </data>
-  <data name="bunifuCustomDataGrid1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>779, 554</value>
-  </data>
-  <data name="bunifuCustomDataGrid1.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomDataGrid1.Name" xml:space="preserve">
-    <value>bunifuCustomDataGrid1</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomDataGrid1.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuCustomDataGrid, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomDataGrid1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;bunifuCustomDataGrid1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="btnAgregar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -622,7 +619,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnAgregar.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="btnModificar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -652,7 +649,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnModificar.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="btnEliminar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -682,7 +679,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnEliminar.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="txtBuscar.Location" type="System.Drawing.Point, System.Drawing">
     <value>602, 112</value>
@@ -703,7 +700,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtBuscar.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="lblBuscar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -715,7 +712,7 @@
     <value>515, 112</value>
   </data>
   <data name="lblBuscar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 26</value>
+    <value>133, 26</value>
   </data>
   <data name="lblBuscar.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -733,7 +730,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblBuscar.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="btnSalir.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -742,7 +739,7 @@
     <value>Century Gothic, 10pt, style=Bold</value>
   </data>
   <data name="btnSalir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1170, 106</value>
+    <value>1166, 106</value>
   </data>
   <data name="btnSalir.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 41</value>
@@ -763,7 +760,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSalir.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="btnBuscar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -796,7 +793,108 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnBuscar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="HabitacionGridView.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="HabitacionGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 166</value>
+  </data>
+  <data name="HabitacionGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="HabitacionGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>809, 490</value>
+  </data>
+  <data name="HabitacionGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;HabitacionGridView.Name" xml:space="preserve">
+    <value>HabitacionGridView</value>
+  </data>
+  <data name="&gt;&gt;HabitacionGridView.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2DataGridView, Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4</value>
+  </data>
+  <data name="&gt;&gt;HabitacionGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HabitacionGridView.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="picActualizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        FzHkGWzcWynmAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="picActualizar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>902, 106</value>
+  </data>
+  <data name="picActualizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 40</value>
+  </data>
+  <data name="picActualizar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="picActualizar.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;picActualizar.Name" xml:space="preserve">
+    <value>picActualizar</value>
+  </data>
+  <data name="&gt;&gt;picActualizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picActualizar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picActualizar.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -805,13 +903,19 @@
     <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1347, 756</value>
+    <value>1399, 756</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>FrmHabitaciones</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FrmHabitaciones</value>

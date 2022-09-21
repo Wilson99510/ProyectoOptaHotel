@@ -39,5 +39,15 @@ namespace ProyectoOptaHotel
         {
             Application.Exit(); 
         }
+
+        private void txt_Usuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

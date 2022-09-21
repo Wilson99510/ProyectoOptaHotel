@@ -21,5 +21,17 @@ namespace ProyectoOptaHotel
         {
             Application.Exit();
         }
+
+        private void habitacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmHabitaciones v1 = new FrmHabitaciones();
+            v1.Show();
+        }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProductos v2 = new frmProductos();
+            v2.Show();
+        }
     }
 }

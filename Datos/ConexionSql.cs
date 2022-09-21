@@ -16,7 +16,7 @@ namespace Datos
         {
             int count;
             con.Open();
-            string query = "Select count(*) from Empleado where usuario = '" + usuario + "'" +
+            string query = "Select count(*) from empleado where usuario = '" + usuario + "'" +
                 " and contraseña = '" + contraseña + "'";
             SqlCommand cmd = new SqlCommand(query, con);
             count = Convert.ToInt32(cmd.ExecuteScalar());

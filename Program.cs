@@ -16,7 +16,7 @@ namespace ProyectoOptaHotel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmHabitaciones());
+            Application.Run(new frmLogin());
         }
     }
 }

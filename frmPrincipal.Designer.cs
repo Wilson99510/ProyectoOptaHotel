@@ -77,6 +77,7 @@
             this.habitacionesToolStripMenuItem.Name = "habitacionesToolStripMenuItem";
             this.habitacionesToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.habitacionesToolStripMenuItem.Text = "Habitaciones";
+            this.habitacionesToolStripMenuItem.Click += new System.EventHandler(this.habitacionesToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -88,6 +89,7 @@
             this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
             this.productosToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.productosToolStripMenuItem.Text = "Productos";
+            this.productosToolStripMenuItem.Click += new System.EventHandler(this.productosToolStripMenuItem_Click);
             // 
             // reservasToolStripMenuItem
             // 
@@ -127,7 +129,7 @@
             // usuariosYAccesosToolStripMenuItem
             // 
             this.usuariosYAccesosToolStripMenuItem.Name = "usuariosYAccesosToolStripMenuItem";
-            this.usuariosYAccesosToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.usuariosYAccesosToolStripMenuItem.Size = new System.Drawing.Size(265, 34);
             this.usuariosYAccesosToolStripMenuItem.Text = "Usuarios y Accesos";
             // 
             // ayudaToolStripMenuItem
@@ -141,7 +143,7 @@
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(203, 34);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             // 
             // salirToolStripMenuItem
